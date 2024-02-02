@@ -9,7 +9,7 @@ const api = axios.create({
   }
 })
 
-export const login = async (username, password) => {
+export const login = async (username , password) => {
   const res = await api.post("/login", { username, password });
   localStorage.setItem("token", res.data.access_token);
   return res.data;

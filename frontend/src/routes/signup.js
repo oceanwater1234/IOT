@@ -9,7 +9,7 @@ function Signup() {
         </video>
         <div className="signup-container">
             <h1 className="signupTitle">Signup</h1>
-            <form method="post"action="http://localhost:5000/signup" className="signupForm">
+            <form method="post" action="http://localhost:3000/signup" className="signupForm">
                 <input type="text" className="signupUsername" placeholder="Username" name="username"></input>
                 <input type="password" className="signupPassword" placeholder="Password" name="password"></input>
                 <button type="submit" className="signupButton">Signup</button>

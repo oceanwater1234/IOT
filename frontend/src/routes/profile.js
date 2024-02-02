@@ -53,7 +53,7 @@ function Profile() {
             <label htmlFor="imageInput" className="uploadImg">
                 <img src={camera} alt="camera" />
             </label>
-            <p className="myName">choeun0303</p>
+            <p className="myName">oceanwater</p>
             <p className="myInfo">저는 태양계 관측을 좋아합니다.</p>   
             <div className="buttonContainer">
                 <button onClick={previousVideo} className="videoButton">이전</button>
